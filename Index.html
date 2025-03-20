@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Software</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-indigo-600">ABC Software</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#projeler" class="text-gray-600 hover:text-indigo-600">Projeler</a>
+                    <a href="#hizmetler" class="text-gray-600 hover:text-indigo-600">Hizmetler</a>
+                    <a href="#iletisim" class="text-gray-600 hover:text-indigo-600">İletişim</a>
+                    <button class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">
+                        Teklif Al
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-white">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-5xl font-bold text-gray-900 mb-6">
+                        Vizyonunuzu<br>
+                        Gerçeğe Dönüştürün
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Modern yazılım çözümleriyle işletmenizi geleceğe taşıyın. 
+                        Özel ERP, CRM ve e-ticaret çözümlerimizle yanınızdayız.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#projeler" class="bg-indigo-600 text-white px-8 py-4 rounded-lg hover:bg-indigo-700 inline-block">
+                            Projeleri İncele 
+                        </a>
+                        <a href="#iletisim" class="bg-indigo-600 text-white px-8 py-4 rounded-lg hover:bg-indigo-700 inline-block">
+                            İletişime geç
+                        </a>
+                    </div>
+                </div>
+                <div class="relative h-96">
+                    <img src="https://webdashboard.com/wp-content/uploads/2024/08/Power-BI-report-dashboard-sharing-Webdashboard-Screenshot.png" alt="Dashboard" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Grid -->
+    <div id="projeler" class="bg-gray-50 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900">Öne Çıkan Projelerimiz</h2>
+                <p class="text-xl text-gray-600 mt-4">Son teknoloji ile geliştirdiğimiz çözümler</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Proje 1 -->
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow">
+                    <div class="h-48">
+                        <img src="https://www.marcumllp.com/wp-content/uploads/insights-erp-system-dashboards-kpis-figure2.jpg" alt="ERP Sistemi" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-indigo-600 mb-2">ERP Sistemi</div>
+                        <h3 class="text-xl font-bold mb-2">MegaERP Çözümü</h3>
+                        <p class="text-gray-600">Üretim ve stok yönetimi için geliştirilmiş kapsamlı ERP sistemi.</p>
+                    </div>
+                </div>
+
+                <!-- Proje 2 -->
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow">
+                    <div class="h-48">
+                        <img src="https://www.geckoboard.com/uploads/Shopify_dashboard_geckoboard.png" alt="E-ticaret" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-indigo-600 mb-2">E-ticaret</div>
+                        <h3 class="text-xl font-bold mb-2">B2B Portal</h3>
+                        <p class="text-gray-600">Toptan satış yapan firmalar için özel B2B e-ticaret platformu.</p>
+                    </div>
+                </div>
+
+                <!-- Proje 3 -->
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow">
+                    <div class="h-48">
+                        <img src="https://fitsmallbusiness.com/wp-content/uploads/2022/08/Screenshot_Pipedrive_customizable_dashboards.jpg" alt="CRM" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="text-sm text-indigo-600 mb-2">CRM</div>
+                        <h3 class="text-xl font-bold mb-2">SmartCRM</h3>
+                        <p class="text-gray-600">Müşteri ilişkileri ve satış süreçleri yönetim sistemi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hizmetler -->
+    <div id="hizmetler" class="bg-white py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Hizmetlerimiz</h2>
+                <p class="text-xl text-gray-600">İşletmeniz için özel olarak geliştirilmiş yazılım çözümleri sunuyoruz</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- ERP Hizmeti -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 group">
+                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition duration-300">
+                        <i class="fas fa-chart-pie text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">ERP Sistemleri</h3>
+                    <p class="text-gray-600 mb-4">Üretim, stok, finans ve tüm iş süreçlerinizi tek platformda yönetin.</p>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center group">
+                        Detaylı Bilgi 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition duration-300"></i>
+                    </a>
+                </div>
+
+                <!-- CRM Hizmeti -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 group">
+                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition duration-300">
+                        <i class="fas fa-users text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">CRM Yazılımları</h3>
+                    <p class="text-gray-600 mb-4">Müşteri ilişkilerinizi güçlendirin, satış süreçlerinizi optimize edin.</p>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center group">
+                        Detaylı Bilgi 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition duration-300"></i>
+                    </a>
+                </div>
+
+                <!-- E-ticaret Hizmeti -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 group">
+                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition duration-300">
+                        <i class="fas fa-shopping-cart text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">E-ticaret Çözümleri</h3>
+                    <p class="text-gray-600 mb-4">B2B ve B2C için özel e-ticaret platformları geliştiriyoruz.</p>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center group">
+                        Detaylı Bilgi 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition duration-300"></i>
+                    </a>
+                </div>
+
+                <!-- Özel Yazılım -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 group">
+                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition duration-300">
+                        <i class="fas fa-code text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Özel Yazılım Geliştirme</h3>
+                    <p class="text-gray-600 mb-4">İşletmenize özel ihtiyaçlar için tam uyumlu çözümler.</p>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center group">
+                        Detaylı Bilgi 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition duration-300"></i>
+                    </a>
+                </div>
+
+                <!-- Mobil Uygulama -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 group">
+                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition duration-300">
+                        <i class="fas fa-mobile-alt text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Mobil Uygulamalar</h3>
+                    <p class="text-gray-600 mb-4">iOS ve Android için native mobil uygulama geliştirme.</p>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center group">
+                        Detaylı Bilgi 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition duration-300"></i>
+                    </a>
+                </div>
+
+                <!-- Danışmanlık -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 group">
+                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-indigo-600 group-hover:text-white transition duration-300">
+                        <i class="fas fa-lightbulb text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Dijital Danışmanlık</h3>
+                    <p class="text-gray-600 mb-4">Dijital dönüşüm sürecinizde profesyonel rehberlik.</p>
+                    <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center group">
+                        Detaylı Bilgi 
+                        <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-2 transition duration-300"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="bg-indigo-600 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="text-white">
+                    <div class="text-4xl font-bold mb-2">150+</div>
+                    <div class="text-indigo-200">Tamamlanan Proje</div>
+                </div>
+                <div class="text-white">
+                    <div class="text-4xl font-bold mb-2">50+</div>
+                    <div class="text-indigo-200">Aktif Müşteri</div>
+                </div>
+                <div class="text-white">
+                    <div class="text-4xl font-bold mb-2">24/7</div>
+                    <div class="text-indigo-200">Destek</div>
+                </div>
+                <div class="text-white">
+                    <div class="text-4xl font-bold mb-2">10 Yıl</div>
+                    <div class="text-indigo-200">Tecrübe</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="iletisim" class="bg-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900">İletişime Geçin</h2>
+                <p class="text-xl text-gray-600 mt-4">Projeniz hakkında konuşalım! Size nasıl yardımcı olabiliriz?</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <form action="#" method="POST">
+                        <div class="grid grid-cols-1 gap-6">
+                            <div>
+                                <label for="name" class="text-sm font-medium text-gray-700">Adınız</label>
+                                <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg" placeholder="Adınızı girin" required>
+                            </div>
+                            <div>
+                                <label for="email" class="text-sm font-medium text-gray-700">E-posta</label>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg" placeholder="E-posta adresinizi girin" required>
+                            </div>
+                            <div>
+                                <label for="message" class="text-sm font-medium text-gray-700">Mesajınız</label>
+                                <textarea id="message" name="message" class="w-full px-4 py-3 border border-gray-300 rounded-lg" rows="5" placeholder="Mesajınızı buraya yazın" required></textarea>
+                            </div>
+                            <div class="mt-6">
+                                <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 w-full">
+                                    Gönder
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="space-y-6">
+                    <div class="flex items-center text-gray-600">
+                        <i class="fas fa-map-marker-alt text-indigo-600 mr-4"></i>
+                        <span>ABC Software, İstanbul, Türkiye</span>
+                    </div>
+                    <div class="flex items-center text-gray-600">
+                        <i class="fas fa-phone-alt text-indigo-600 mr-4"></i>
+                        <span>+90 123 456 789</span>
+                    </div>
+                    <div class="flex items-center text-gray-600">
+                        <i class="fas fa-envelope text-indigo-600 mr-4"></i>
+                        <span>info@abcsoftware.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-indigo-600 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p>&copy; 2025 ABC Software. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
